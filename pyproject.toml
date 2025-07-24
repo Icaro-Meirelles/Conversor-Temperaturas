@@ -1,0 +1,17 @@
+[project]
+name = "conversor-temperaturas"
+version = "0.1.0"
+description = "\"Projeto para aprendizado em Python, com o objetivo de conversão entre vários tipos de escalas de temperatura\""
+authors = [
+    {name = "IC4R0",email = "Icaro.MSantos@hotmail.com"}
+]
+license = {text = "\"MIT\""}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
