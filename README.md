@@ -1,14 +1,18 @@
+<p align="center">
+    <img src="banner.png" alt="CONVERSOR_TEMPERATURAS" width="600">
+</p>
+
 # 🌡️ Conversor de Temperaturas em Python
 
 Projeto simples de conversor de temperaturas, feito com o objetivo de praticar **fundamentos de Python** como:
 
-- Funções
-- Operadores
-- Condicionais
-- Laço `while`
-- Tratamento de entrada
-- Organização em múltiplos arquivos
-- ASCII Art com `print_sol()` para visual legal no terminal
+- Funções  
+- Operadores  
+- Condicionais  
+- Laço `while`  
+- Tratamento de entrada  
+- Organização em múltiplos arquivos  
+- ASCII Art com `print_sol()` para visual legal no terminal  
 
 ---
 
@@ -33,16 +37,37 @@ python Conversor_Temperaturas.py
 
 ---
 
+## 📦 Gerenciamento com Poetry
+
+Este projeto utiliza o [Poetry](https://python-poetry.org/) para gerenciamento de dependências e ambiente.
+
+### 🔧 Requisitos
+
+- Python 3.8 ou superior  
+- Poetry instalado (instale com: `pip install poetry`)
+
+### ▶️ Executando com Poetry
+
+```bash
+# Instale as dependências (caso existam)
+poetry install
+
+# Execute o script principal
+poetry run python Conversor_Temperaturas.py
+```
+
+---
+
 ## 📋 Funcionalidades
 
-- [x] Celsius para Fahrenheit
-- [x] Fahrenheit para Celsius
-- [x] Celsius para Kelvin
-- [x] Kelvin para Celsius
-- [x] Fahrenheit para Kelvin
-- [x] Kelvin para Fahrenheit
-- [x] Menu interativo
-- [x] ASCII Art no terminal
+- [x] Celsius para Fahrenheit  
+- [x] Fahrenheit para Celsius  
+- [x] Celsius para Kelvin  
+- [x] Kelvin para Celsius  
+- [x] Fahrenheit para Kelvin  
+- [x] Kelvin para Fahrenheit  
+- [x] Menu interativo  
+- [x] ASCII Art no terminal  
 
 ---
 
@@ -84,3 +109,4 @@ Este projeto está sob a licença MIT — sinta-se livre para usar, modificar e 
 ## 👤 Autor
 
 Desenvolvido por **IC4R0**
+"""
